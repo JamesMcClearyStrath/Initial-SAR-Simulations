@@ -1,5 +1,8 @@
 Code developed to create Bistatic SAR propogation reusing the stripmap SAR code.
 
+To run keep all files in same directory, Note that the helper functions are not required to run most of the code, only the final part of analysis.
+
+
 Currently used to generate a reference and a surveillance waveform, though assumes a Tx with antennae and dish rather than an isotropic Tx.
 
 Examples of processing are included though these assume its an active radar from a platform rather than using a Tx from separate location.
