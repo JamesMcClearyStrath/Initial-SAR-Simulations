@@ -10,3 +10,11 @@ Examples of processing are included though these assume its an active radar from
 Bistatic processing will be included in next step.
 
 non pulsed waveforms in theory should work with the propogation method though different processing would be implemented for this.
+
+New file - Bistatic_SAR_Propogation_Model_Correlation
+
+estimates range difference between L (Tx - Rx) and R (r1+r2 or Tx-Target-Rx). This is done with time difference of arrival.
+
+Time difference calculated using complex correlation, with sample number used to get time difference then range. 
+
+Tested for 1 target, developing multiple targets
